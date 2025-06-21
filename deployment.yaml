@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: azuredevops
-          image: charlash555/ironman
+          image: sona5r/loki
           imagePullPolicy: Always
           ports:
             - containerPort: 80
